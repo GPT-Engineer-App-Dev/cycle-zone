@@ -1,4 +1,4 @@
-import { CircleUser, Menu, Motorcycle, Search } from "lucide-react"
+import { CircleUser, Menu, Bike, Search } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -31,7 +31,7 @@ function SharedLayout() {
             href="#"
             className="flex items-center gap-2 text-lg font-semibold md:text-base"
           >
-            <Motorcycle className="h-6 w-6" />
+            <Bike className="h-6 w-6" />
             <span className="sr-only">MotoWorld</span>
           </a>
           <a
@@ -76,7 +76,7 @@ function SharedLayout() {
                 href="#"
                 className="flex items-center gap-2 text-lg font-semibold"
               >
-                <Motorcycle className="h-6 w-6" />
+                <Bike className="h-6 w-6" />
                 <span className="sr-only">MotoWorld</span>
               </a>
               <a
