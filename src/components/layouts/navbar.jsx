@@ -1,4 +1,4 @@
-import { CircleUser, Menu, Package2, Search } from "lucide-react"
+import { CircleUser, Menu, Motorcycle, Search } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -31,14 +31,32 @@ function SharedLayout() {
             href="#"
             className="flex items-center gap-2 text-lg font-semibold md:text-base"
           >
-            <Package2 className="h-6 w-6" />
-            <span className="sr-only">Acme Inc</span>
+            <Motorcycle className="h-6 w-6" />
+            <span className="sr-only">MotoWorld</span>
           </a>
           <a
             href="#"
             className="text-muted-foreground transition-colors hover:text-foreground"
           >
             Home
+          </a>
+          <a
+            href="#"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Models
+          </a>
+          <a
+            href="#"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Dealers
+          </a>
+          <a
+            href="#"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Contact
           </a>
         </nav>
         <Sheet>
@@ -58,14 +76,32 @@ function SharedLayout() {
                 href="#"
                 className="flex items-center gap-2 text-lg font-semibold"
               >
-                <Package2 className="h-6 w-6" />
-                <span className="sr-only">Acme Inc</span>
+                <Motorcycle className="h-6 w-6" />
+                <span className="sr-only">MotoWorld</span>
               </a>
               <a
                 href="#"
                 className="text-muted-foreground hover:text-foreground"
               >
                 Home
+              </a>
+              <a
+                href="#"
+                className="text-muted-foreground hover:text-foreground"
+              >
+                Models
+              </a>
+              <a
+                href="#"
+                className="text-muted-foreground hover:text-foreground"
+              >
+                Dealers
+              </a>
+              <a
+                href="#"
+                className="text-muted-foreground hover:text-foreground"
+              >
+                Contact
               </a>
             </nav>
           </SheetContent>
